@@ -1,7 +1,7 @@
 <?php
 $favcolor = "red";
 
-switch ($favcolor) {
+switch ($favcolor) { 
     case "red":
         echo "Your favorite color is red!";
         break;
