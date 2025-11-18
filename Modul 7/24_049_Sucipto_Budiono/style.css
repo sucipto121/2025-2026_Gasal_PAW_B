@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* FILTER */
+.filter-box {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+/* Tombol hijau */
+.btn-green {
+    background: #67a74f;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Grafik */
+.chart-area {
+    border: 1px solid #dedede;
+    padding: 20px;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+/* TABEL REKAP */
+.table-style {
+    width: 70%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+
+.table-style thead {
+    background: #cde6f7;
+}
+
+.table-style th, .table-style td {
+    border: 1px solid #b5c6d6;
+    padding: 10px;
+    text-align: center;
+}
+
+/* TOTAL BOX */
+.table-total {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table-total td {
+    border: 1px solid #b5c6d6;
+    padding: 10px;
+}
+
+/* Tombol Print / Excel */
+.btn-container {
+    margin-bottom: 15px;
+}
+
+.btn-orange {
+    display: inline-block;
+    background: #ff7f27;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-right: 10px;
+}

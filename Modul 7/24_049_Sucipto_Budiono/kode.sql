@@ -1,0 +1,17 @@
+CREATE DATABASE IF NOT EXISTS laporan_penjualan;
+USE laporan_penjualan;
+
+CREATE TABLE IF NOT EXISTS penjualan (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    tanggal DATE NOT NULL,
+    total DECIMAL(10, 2) NOT NULL
+);
+
+INSERT INTO penjualan (tanggal, total) VALUES
+('2025-09-01', 39000.00),
+('2025-09-02', 52000.00),
+('2025-09-03', 13000.00),
+('2025-09-04', 13000.00),
+('2025-09-05', 26000.00),
+('2025-09-06', 13000.00),
+('2025-09-09', 13000.00);
